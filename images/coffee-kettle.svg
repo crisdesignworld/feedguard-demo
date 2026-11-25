@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#F8FAFC" />
+  <rect x="24" y="24" width="352" height="352" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" />
+  <path d="M135 270 l15-120 h90 l15 120 z" fill="#0F172A" />
+  <rect x="160" y="132" width="70" height="18" rx="6" fill="#475569" />
+  <path d="M140 245 c-35 0-40-55-55-95" fill="none" stroke="#334155" stroke-width="10" stroke-linecap="round" />
+  <path d="M245 165 h28 a20 20 0 0 1 0 75 h-20" fill="none" stroke="#334155" stroke-width="12" stroke-linecap="round" />
+  <text x="200" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#0F172A">Northwind Coffee Kettle · NW-007</text>
+</svg>

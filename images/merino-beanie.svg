@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#F8FAFC" />
+  <rect x="24" y="24" width="352" height="352" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" />
+  <path d="M115 235 c0-65 40-105 85-105 s85 40 85 105 z" fill="#475569" />
+  <rect x="108" y="220" width="184" height="42" rx="12" fill="#334155" />
+  <circle cx="200" cy="120" r="18" fill="#64748B" />
+  <text x="200" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#0F172A">Northwind Merino Beanie · NW-002</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#F8FAFC" />
+  <rect x="24" y="24" width="352" height="352" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" />
+  <rect x="125" y="110" width="150" height="175" rx="26" fill="#3F6212" />
+  <rect x="145" y="190" width="110" height="65" rx="10" fill="#4D7C0F" />
+  <rect x="180" y="160" width="40" height="16" rx="4" fill="#D97706" />
+  <text x="200" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#0F172A">Northwind Canvas Daypack · NW-003</text>
+</svg>
