@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
   <channel>
     <title>Northwind Goods — FeedGuard Synthetic Demo Catalogue</title>
-    <link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/</link>
+    <link>https://crisdesignworld.github.io/feedguard-demo/</link>
     <description>Synthetic 10-product Google Shopping demonstration feed for verifying FeedGuard live URL scanning.</description>
 
     <!-- 1. Valid product #1 (working link, working image, matching JSON-LD) -->
@@ -10,8 +10,8 @@
       <g:id>NW-001</g:id>
       <g:title>Cedar Ridge Insulated Camp Mug (12 oz)</g:title>
       <g:description>Double-wall stainless steel insulated camp mug with matte powder coat finish and press-fit lid.</g:description>
-      <g:link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/products/cedar-camp-mug.html</g:link>
-      <g:image_link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/images/cedar-camp-mug.svg</g:image_link>
+      <g:link>https://crisdesignworld.github.io/feedguard-demo/products/cedar-camp-mug.html</g:link>
+      <g:image_link>https://crisdesignworld.github.io/feedguard-demo/images/cedar-camp-mug.svg</g:image_link>
       <g:price>28.00 USD</g:price>
       <g:availability>in_stock</g:availability>
       <g:brand>Northwind Goods</g:brand>
@@ -25,8 +25,8 @@
       <g:id>NW-002</g:id>
       <g:title>Harbor Mist Merino Wool Beanie — Slate</g:title>
       <g:description>Soft midweight knit beanie crafted from breathable merino wool for cool coastal mornings.</g:description>
-      <g:link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/products/merino-beanie.html</g:link>
-      <g:image_link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/images/merino-beanie.svg</g:image_link>
+      <g:link>https://crisdesignworld.github.io/feedguard-demo/products/merino-beanie.html</g:link>
+      <g:image_link>https://crisdesignworld.github.io/feedguard-demo/images/merino-beanie.svg</g:image_link>
       <g:price>34.00 USD</g:price>
       <g:availability>in_stock</g:availability>
       <g:brand>Northwind Goods</g:brand>
@@ -40,8 +40,8 @@
       <g:id>NW-003</g:id>
       <g:title>Summit Canvas Daypack — Olive (22L)</g:title>
       <g:description>Water-resistant waxed cotton canvas daypack with padded 15-inch laptop sleeve and brass hardware.</g:description>
-      <g:link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/products/canvas-daypack.html</g:link>
-      <g:image_link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/images/canvas-daypack.svg</g:image_link>
+      <g:link>https://crisdesignworld.github.io/feedguard-demo/products/canvas-daypack.html</g:link>
+      <g:image_link>https://crisdesignworld.github.io/feedguard-demo/images/canvas-daypack.svg</g:image_link>
       <g:price></g:price>
       <g:availability>in_stock</g:availability>
       <g:brand>Northwind Goods</g:brand>
@@ -55,7 +55,7 @@
       <g:id>NW-004</g:id>
       <g:title>Pinecone Brass Pocket Compass</g:title>
       <g:description>Machined solid brass directional pocket compass with luminous cardinal markers and protective lid.</g:description>
-      <g:link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/products/pocket-compass.html</g:link>
+      <g:link>https://crisdesignworld.github.io/feedguard-demo/products/pocket-compass.html</g:link>
       <g:image_link></g:image_link>
       <g:price>42.00 USD</g:price>
       <g:availability>in_stock</g:availability>
@@ -70,8 +70,8 @@
       <g:id>NW-005</g:id>
       <g:title>Driftwood Linen Kitchen Apron — Natural</g:title>
       <g:description>Heavyweight stonewashed flax linen chef apron with adjustable cross-back cotton straps.</g:description>
-      <g:link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/products/linen-apron.html</g:link>
-      <g:image_link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/images/linen-apron.svg</g:image_link>
+      <g:link>https://crisdesignworld.github.io/feedguard-demo/products/linen-apron.html</g:link>
+      <g:image_link>https://crisdesignworld.github.io/feedguard-demo/images/linen-apron.svg</g:image_link>
       <g:price>46.00 USD</g:price>
       <g:availability>in_stock</g:availability>
       <g:brand>Northwind Goods</g:brand>
@@ -85,8 +85,8 @@
       <g:id>NW-005</g:id>
       <g:title>Driftwood Linen Kitchen Apron — Charcoal</g:title>
       <g:description>Heavyweight stonewashed flax linen chef apron in charcoal with deep front utility pockets.</g:description>
-      <g:link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/products/linen-apron-charcoal.html</g:link>
-      <g:image_link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/images/linen-apron.svg</g:image_link>
+      <g:link>https://crisdesignworld.github.io/feedguard-demo/products/linen-apron-charcoal.html</g:link>
+      <g:image_link>https://crisdesignworld.github.io/feedguard-demo/images/linen-apron.svg</g:image_link>
       <g:price>46.00 USD</g:price>
       <g:availability>in_stock</g:availability>
       <g:brand>Northwind Goods</g:brand>
@@ -100,8 +100,8 @@
       <g:id>NW-007</g:id>
       <g:title>Riverstone Pour-Over Coffee Kettle (1L)</g:title>
       <g:description>Precision gooseneck stainless kettle with built-in lid thermometer for slow pour-over brewing.</g:description>
-      <g:link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/products/coffee-kettle.html</g:link>
-      <g:image_link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/images/coffee-kettle.svg</g:image_link>
+      <g:link>https://crisdesignworld.github.io/feedguard-demo/products/coffee-kettle.html</g:link>
+      <g:image_link>https://crisdesignworld.github.io/feedguard-demo/images/coffee-kettle.svg</g:image_link>
       <g:price>64.00 USD</g:price>
       <g:availability>in_stock</g:availability>
       <g:brand>Northwind Goods</g:brand>
@@ -115,8 +115,8 @@
       <g:id>NW-008</g:id>
       <g:title>Beacon Rechargeable Storm Lantern</g:title>
       <g:description>Dimmable warm-LED camp lantern with braided steel bail handle and USB-C rechargeable cell.</g:description>
-      <g:link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/products/discontinued-lantern-404.html</g:link>
-      <g:image_link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/images/storm-lantern.svg</g:image_link>
+      <g:link>https://crisdesignworld.github.io/feedguard-demo/products/discontinued-lantern-404.html</g:link>
+      <g:image_link>https://crisdesignworld.github.io/feedguard-demo/images/storm-lantern.svg</g:image_link>
       <g:price>58.00 USD</g:price>
       <g:availability>in_stock</g:availability>
       <g:brand>Northwind Goods</g:brand>
@@ -130,8 +130,8 @@
       <g:id>NW-009</g:id>
       <g:title>Timberline Vacuum Trail Flask (750 ml)</g:title>
       <g:description>Leakproof vacuum-insulated trail flask engineered to keep drinks cold for 24 hours.</g:description>
-      <g:link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/products/trail-flask.html</g:link>
-      <g:image_link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/images/missing-flask-404.svg</g:image_link>
+      <g:link>https://crisdesignworld.github.io/feedguard-demo/products/trail-flask.html</g:link>
+      <g:image_link>https://crisdesignworld.github.io/feedguard-demo/images/missing-flask-404.svg</g:image_link>
       <g:price>32.00 USD</g:price>
       <g:availability>in_stock</g:availability>
       <g:brand>Northwind Goods</g:brand>
@@ -145,8 +145,8 @@
       <g:id>NW-010</g:id>
       <g:title>Shoreline Waxed Canvas Market Tote</g:title>
       <g:description>Structured everyday market tote sewn from 18 oz waxed duck canvas with reinforced leather handles.</g:description>
-      <g:link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/products/waxed-tote.html</g:link>
-      <g:image_link>https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo/images/waxed-tote.svg</g:image_link>
+      <g:link>https://crisdesignworld.github.io/feedguard-demo/products/waxed-tote.html</g:link>
+      <g:image_link>https://crisdesignworld.github.io/feedguard-demo/images/waxed-tote.svg</g:image_link>
       <g:price>75.00 USD</g:price>
       <g:availability>in_stock</g:availability>
       <g:brand>Northwind Goods</g:brand>
