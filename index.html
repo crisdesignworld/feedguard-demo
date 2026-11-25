@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northwind Goods — FeedGuard Synthetic Demo Catalogue</title>
+  </head>
+  <body style="font-family: system-ui, -apple-system, sans-serif; max-width: 780px; margin: 40px auto; padding: 0 20px; color: #0F172A; line-height: 1.6;">
+    <h1>Northwind Goods — FeedGuard Synthetic Demo Store</h1>
+    <p>
+      This static demonstration site hosts 100% fictional product data, product landing pages, and SVG images created solely to verify FeedGuard's live public URL scanning pipeline.
+    </p>
+
+    <h2>Feed Files</h2>
+    <ul>
+      <li><a href="./feedguard-demo.xml">feedguard-demo.xml</a> (Google Shopping RSS 2.0 XML — 10 products)</li>
+      <li><a href="./feedguard-demo.csv">feedguard-demo.csv</a> (Google Shopping CSV — 10 products)</li>
+    </ul>
+
+    <h2>Zero-Coding Feed Customizer (for GitHub Pages)</h2>
+    <p>
+      Enter your GitHub username and repository name below to download <code>feedguard-demo.xml</code> and <code>feedguard-demo.csv</code> with all 20 product and image links automatically updated for your GitHub Pages site:
+    </p>
+    <div style="border: 1px solid #CBD5E1; border-radius: 8px; padding: 16px; background: #F8FAFC;">
+      <p style="margin-top: 0;">
+        <label><strong>GitHub Username:</strong><br />
+          <input id="ghUser" type="text" placeholder="e.g. alex-smith" style="padding: 8px; width: 260px; margin-top: 4px;" />
+        </label>
+      </p>
+      <p>
+        <label><strong>Repository Name:</strong><br />
+          <input id="ghRepo" type="text" value="feedguard-demo" style="padding: 8px; width: 260px; margin-top: 4px;" />
+        </label>
+      </p>
+      <button type="button" onclick="downloadCustom('xml')" style="padding: 10px 14px; background: #0F766E; color: #FFFFFF; border: none; border-radius: 6px; cursor: pointer; margin-right: 8px;">
+        Download feedguard-demo.xml
+      </button>
+      <button type="button" onclick="downloadCustom('csv')" style="padding: 10px 14px; background: #0F172A; color: #FFFFFF; border: none; border-radius: 6px; cursor: pointer;">
+        Download feedguard-demo.csv
+      </button>
+      <p id="statusMsg" style="font-size: 13px; color: #475569; margin-bottom: 0;"></p>
+    </div>
+
+    <h2>Demo Product Pages</h2>
+    <ul>
+      <li><a href="./products/cedar-camp-mug.html">NW-001: Cedar Ridge Insulated Camp Mug (Valid)</a></li>
+      <li><a href="./products/merino-beanie.html">NW-002: Harbor Mist Merino Wool Beanie (Valid)</a></li>
+      <li><a href="./products/canvas-daypack.html">NW-003: Summit Canvas Daypack (Feed missing price)</a></li>
+      <li><a href="./products/pocket-compass.html">NW-004: Pinecone Brass Pocket Compass (Feed missing image)</a></li>
+      <li><a href="./products/linen-apron.html">NW-005: Driftwood Linen Kitchen Apron — Natural (Duplicate ID 1/2)</a></li>
+      <li><a href="./products/linen-apron-charcoal.html">NW-005: Driftwood Linen Kitchen Apron — Charcoal (Duplicate ID 2/2)</a></li>
+      <li><a href="./products/coffee-kettle.html">NW-007: Riverstone Pour-Over Coffee Kettle (Invalid GTIN)</a></li>
+      <li>NW-008: Beacon Storm Lantern — intentionally links to missing page (HTTP 404)</li>
+      <li><a href="./products/trail-flask.html">NW-009: Timberline Vacuum Trail Flask (Image intentionally HTTP 404)</a></li>
+      <li><a href="./products/waxed-tote.html">NW-010: Shoreline Waxed Canvas Market Tote (Intentional Price &amp; Availability mismatch)</a></li>
+    </ul>
+
+    <script>
+      async function downloadCustom(ext) {
+        const user = document.getElementById('ghUser').value.trim().replace(/[^a-zA-Z0-9-]/g, '');
+        const repo = document.getElementById('ghRepo').value.trim().replace(/[^a-zA-Z0-9._-]/g, '') || 'feedguard-demo';
+        const status = document.getElementById('statusMsg');
+        if (!user) {
+          status.textContent = 'Please enter your GitHub username first.';
+          return;
+        }
+        const fileName = 'feedguard-demo.' + ext;
+        const res = await fetch('./' + fileName);
+        const raw = await res.text();
+        const updated = raw.split('https://YOUR-GITHUB-USERNAME.github.io/feedguard-demo').join('https://' + user.toLowerCase() + '.github.io/' + repo);
+        const blob = new Blob([updated], { type: ext === 'xml' ? 'application/xml' : 'text/csv' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = fileName;
+        link.click();
+        status.textContent = 'Downloaded customized ' + fileName + ' for https://' + user.toLowerCase() + '.github.io/' + repo + '/';
+      }
+    </script>
+  </body>
+</html>

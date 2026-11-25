@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#F8FAFC" />
+  <rect x="24" y="24" width="352" height="352" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" />
+  <rect x="130" y="150" width="140" height="130" rx="12" fill="#92400E" />
+  <path d="M165 150 c0-42 70-42 70 0" fill="none" stroke="#451A03" stroke-width="10" stroke-linecap="round" />
+  <text x="200" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#0F172A">Northwind Waxed Tote · NW-010</text>
+</svg>
